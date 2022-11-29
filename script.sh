@@ -1,5 +1,7 @@
 #!/bin/bash
 #Criando jar executável
+
+java -version
 if [ $? -eq 0 ];
 then
 	echo "Arquivo .jar não instalado!"
